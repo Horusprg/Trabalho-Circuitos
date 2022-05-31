@@ -5,7 +5,10 @@ from flask_qrcode import QRcode
 
 app = Flask(__name__)
 QRcode(app)
-@app.route("/user/<info>", methods=['GET'])
+@app.route("/")
+def none():
+    return "Hello"
+@app.route("/user/<info>")
 def home(info):
     info = str(info)
     date, hour, status = info.split("$")
@@ -14,7 +17,7 @@ def home(info):
     if status == 'false':
         return render_template("home.html", date=date, hour=hour, status=status, datestr=datestr)
 
-@app.route("/payment/<info>", methods=['GET'])
+@app.route("/payment/<info>")
 def payment(info):
     info = str(info)
     date, hour, status = info.split("$")
