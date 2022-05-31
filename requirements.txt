@@ -30,13 +30,6 @@ google-pasta==0.2.0
 grpcio==1.46.3
 inflection==0.5.1
 isodate==0.6.1
-keras==2.9.0
-Keras-Preprocessing==1.1.2
-Kivy==2.0.0
-kivy-deps.angle==0.3.2
-kivy-deps.glew==0.3.1
-kivy-deps.sdl2==0.3.1
-Kivy-Garden==0.1.4
 libclang==14.0.1
 llvmlite==0.37.0
 locket==0.2.1
