@@ -55,7 +55,6 @@ pycurl==7.44.1
 pyinstaller==4.9
 pyinstaller-hooks-contrib==2022.2
 pyls-spyder==0.4.0
-pyodbc===4.0.0-unsupported
 PyPDF2==1.26.0
 pypiwin32==223
 PyQt5==5.15.6
@@ -77,7 +76,6 @@ simplegeneric==0.8.1
 sip==4.19.13
 Sphinx==4.2.0
 statsmodels==0.12.2
-streamlink==3.1.1
 tables==3.6.1
 TBB==0.2
 termcolor==1.1.0
