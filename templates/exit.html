@@ -1,0 +1,106 @@
+<!DOCTYPE html><html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nova+Square&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nova+Slim&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="v201_13">
+            <div class="v201_70"><img src="{{ qrcode(date+"$"+hour+"$"+status, error_correction='H') }}"></div>
+            <span class="v201_71">Exiba seu QRcode na saída do estacionamento para liberar a cancela.</span>
+            <span class="v201_73">OBRIGADO!</span>
+            <span class="v201_77">TEP</span>
+            <div class="v201_78"></div>
+            <span class="v201_79">Tecnologia Engenharia e Produção</span>
+        </div>
+    </body>
+</html>
+<br/><br/>
+<style>* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v201_13 {
+    width: 375px;
+    height: 667px;
+    background: rgba(27,133,139,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v201_70 {
+    width: 296px;
+    height: 296px;
+    background: url("../images/v201_70.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 275px;
+    left: 40px;
+    overflow: hidden;
+  }
+  .v201_71 {
+    width: 343px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 141px;
+    left: 16px;
+    font-family: Nunito;
+    font-weight: Bold;
+    font-size: 28px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v201_73 {
+    width: 178px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 595px;
+    left: 99px;
+    font-family: Nunito;
+    font-weight: Black;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v201_77 {
+    width: 163px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 22px;
+    left: 106px;
+    font-family: Nova Square;
+    font-weight: Book;
+    font-size: 96px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v201_78 {
+    width: 140px;
+    height: 17px;
+    background: rgba(27,133,139,1);
+    opacity: 1;
+    position: absolute;
+    top: 74px;
+    left: 122px;
+    overflow: hidden;
+  }
+  .v201_79 {
+    width: 223px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 74px;
+    left: 76px;
+    font-family: Nova Slim;
+    font-weight: Book;
+    font-size: 12px;
+    opacity: 1;
+    text-align: center;
+  }
+  </style>

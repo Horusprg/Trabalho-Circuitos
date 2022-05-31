@@ -1,0 +1,210 @@
+<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet" /></head>
+<body>
+    <div class="v201_11">
+        <span class="v201_53">ENTRADA:</span>
+        <span class="v201_54">SAÍDA:</span>
+        <span class="v201_55">VALOR PAGO:</span>
+        <span class="v201_56">R$ 10,00</span>
+        <span class="v201_57">TEMPO:</span>
+        <span class="v201_58">LOCAL:</span>
+        <span class="v201_59">{{ time }}</span>
+        <span class="v201_60">{{ hourout }} - {{ dateout }}</span>
+        <span class="v201_61">ABCDEFGHIJKL</span>
+        <span class="v201_62">{{ hour }} - {{ datestr }}</span>
+        <span class="v201_63">INFORMAÇÕES</span>
+        <div class="v201_66">
+            <div class="v201_67"></div>
+            <a href="/exit/{{ date }}${{ hour }}${{ status }}" class="v201_68">GERAR QRCODE</span>
+        </div>
+    </div>
+</body>
+</html>
+<br/><br/> 
+<style>* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v201_11 {
+    width: 375px;
+    height: 667px;
+    background: rgba(27,133,139,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v201_53 {
+    width: 156px;
+    color: rgba(14,46,60,1);
+    position: absolute;
+    top: 155px;
+    left: 16px;
+    font-family: Nunito;
+    font-weight: ExtraBold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v201_54 {
+    width: 104px;
+    color: rgba(14,46,60,1);
+    position: absolute;
+    top: 241px;
+    left: 16px;
+    font-family: Nunito;
+    font-weight: ExtraBold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v201_55 {
+    width: 225px;
+    color: rgba(14,46,60,1);
+    position: absolute;
+    top: 431px;
+    left: 75px;
+    font-family: Nunito;
+    font-weight: ExtraBold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v201_56 {
+    width: 102px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 478px;
+    left: 137px;
+    font-family: Nunito;
+    font-weight: ExtraBold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v201_57 {
+    width: 115px;
+    color: rgba(14,46,60,1);
+    position: absolute;
+    top: 327px;
+    left: 15px;
+    font-family: Nunito;
+    font-weight: ExtraBold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v201_58 {
+    width: 108px;
+    color: rgba(14,46,60,1);
+    position: absolute;
+    top: 327px;
+    left: 251px;
+    font-family: Nunito;
+    font-weight: ExtraBold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: right;
+  }
+  .v201_59 {
+    width: 137px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 374px;
+    left: 16px;
+    font-family: Nunito;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v201_60 {
+    width: 343px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 288px;
+    left: 16px;
+    font-family: Nunito;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v201_61 {
+    width: 181px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 374px;
+    left: 178px;
+    font-family: Nunito;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v201_62 {
+    width: 343px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 202px;
+    left: 16px;
+    font-family: Nunito;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v201_63 {
+    width: 226px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 77px;
+    left: 75px;
+    font-family: Nunito;
+    font-weight: Black;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v201_66 {
+    width: 285px;
+    height: 64px;
+    background: url("../images/v201_66.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 545px;
+    left: 45px;
+    overflow: hidden;
+  }
+  .v201_67 {
+    width: 285px;
+    height: 64px;
+    background: rgba(14,46,60,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+  .v201_68 {
+    width: 225px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    font-family: Nunito;
+    font-weight: SemiBold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  </style>
