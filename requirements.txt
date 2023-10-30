@@ -1,4 +1,4 @@
-﻿absl-py==1.0.0
+absl-py==1.0.0
 altgraph==0.17.2
 appdirs==1.4.4
 argh==0.26.2
@@ -43,7 +43,7 @@ pathspec==0.7.0
 patsy==0.5.2
 pefile==2021.9.3
 pep8==1.7.1
-Pillow==8.4.0
+Pillow==10.0.1
 pkginfo==1.7.1
 ply==3.11
 protobuf==3.19.4
